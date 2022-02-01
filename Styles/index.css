@@ -1,0 +1,42 @@
+:root{
+    --button-bg: white;
+    --body-bg :black;
+    --h1-color: rgb(172, 230, 0);
+    --div-shadow : 10px 5px 30px 10px greenyellow;
+}
+body{
+    background-color:var(--body-bg);
+}
+h1 {
+  color: var(--h1-color);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.scrollBar{
+    box-shadow: var(--div-shadow);
+}
+.parent{
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: relative;
+}
+.left{
+    top: 250px;
+    left: 8px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: var(--button-bg);
+}
+.right{
+    top: 250px;
+    left: 93.2%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: var(--button-bg);
+}
